@@ -5,15 +5,15 @@ import { FiRepeat,FiUsers,FiShield,FiDollarSign, FiClock ,FiTrendingUp,FiArrowUp
 export default function Section4(){
     return (<>
      {/* Steps */}
-              <section className="bg-teal-900 text-white py-20 px-4">
+              <section className="bg-[#180d39] text-white py-20 px-4">
           <div className="max-w-5xl mx-auto">
             {/* Header */}
-            <div className="text-center mb-16">
+            <div className=" mb-16">
               <span className="text-teal-300 font-medium tracking-widest">STEP</span>
               <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 leading-tight">
-                Maximize your returns with a Reserve account that generates
+                Maximize your returns with a <br /> Reserve account that generates
               </h2>
-              <div className="w-24 h-1 bg-teal-500 mx-auto"></div>
+              {/* <div className="w-24 h-1 bg-teal-500 mx-auto"></div> */}
             </div>
     
             {/* Steps */}

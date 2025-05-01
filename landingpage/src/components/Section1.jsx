@@ -1,5 +1,7 @@
 import React from "react";
 import { Button } from "./button";
+import { FiRepeat,FiUsers,FiShield,FiDollarSign, FiClock ,FiTrendingUp,FiArrowUpRight } from "react-icons/fi"; // Feather Icons
+
 import CardPreview from "./CardPreview";
 export default function Section1(){
     return (<>
@@ -12,16 +14,16 @@ export default function Section1(){
                     all your pay.
                   </h1>
                   <p className="text-gray-600 mb-6">
-                    Supports small businesses with simple invoicing,
+                    Supports small businesses with simple invoicing,<br />
                     powerful integrations, and cash flow management tools.
                   </p>
-                  <div className="flex gap-2">
+                  <div className="flex ">
                     <input
                       type="email"
                       placeholder="Your business email"
                       className="border px-4 py-2 rounded-md w-full max-w-xs"
                     />
-                    <Button>Get Started</Button>
+                    <Button className="px-4 py-2 rounded-md w-full max-w-xs">Get Started <FiArrowUpRight className="inline"/></Button>
                   </div>
                   <div className="mt-6 flex gap-6">
                     <img src="https://iolla.com/sites/default/files/styles/coh_x_large/public/2022-09/Klarna_Logo-update.jpg?itok=jBAqpxbw" alt="Klarna" className="h-6" />

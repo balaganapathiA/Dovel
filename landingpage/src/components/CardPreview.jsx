@@ -2,11 +2,11 @@ import { CreditCard, AccountBalance } from "@mui/icons-material";
 
 export default function CardPreview() {
   return (
-    <div className="relative w-80 h-88 p-6 rounded-2xl bg-white shadow-md space-y-4">
+    <div className="relative left-50 w-80 h-88 p-6 rounded-2xl bg-white shadow-md space-y-4">
 
       {/* User Info */}
       <div className="flex items-center gap-3">
-        <div className="w-10 h-10 rounded-full bg-[#e0f2f1] flex items-center justify-center">
+        <div className="w-10 h-10 rounded-full bg-[#2a8e9e] flex items-center justify-center">
           <span className="text-teal-700 font-bold text-lg">D</span>
           
         </div>
@@ -44,7 +44,7 @@ export default function CardPreview() {
       </button>
 
       {/* VISA Card */}
-      <div className="absolute -top-14 right-0 w-15 h-48 bg-gradient-to-b from-teal-500 to-teal-700 rounded-xl text-white shadow-lg  flex flex-col justify-between">
+      <div className="absolute -top-14 right-0 w-15 h-48 bg-[#2a8e9e] rounded-xl text-white shadow-lg  flex flex-col justify-between">
         <div className="p-4"><div className="text-xs">Credit Card</div>
         <div className="text-md font-semibold">234 **** *****</div></div>
         
