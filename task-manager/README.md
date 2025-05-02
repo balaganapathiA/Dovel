@@ -85,11 +85,7 @@ Through building this project, the following concepts were learned and applied:
 
 ---
 
-## 📷 Screenshots / Demo
 
-_Include screenshots or a video link here if available._
-
----
 
 ## 📁 Project Structure
 
