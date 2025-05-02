@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Simple Task Manager
 
-## Getting Started
+A minimal task manager web application built with **Next.js**, **Zustand**, and **Tailwind CSS** to demonstrate modern frontend architecture, state management, and user interaction handling.
 
-First, run the development server:
+---
+
+## 🚀 Features Implemented
+
+- ✅ Add new tasks with titles and optional descriptions
+- ✅ View all tasks in a clean, responsive UI
+- ✅ Mark tasks as complete or incomplete
+- ✅ Edit task titles and descriptions
+- ✅ Delete tasks with confirmation
+- ✅ Filter tasks by **All**, **Active**, or **Completed**
+- ✅ Global state management using Zustand
+- ✅ Responsive and accessible design with Tailwind CSS
+- ✅ Dark mode support (Tailwind-based)
+- ✅ Loading state and basic error handling
+- ✅ Animated button interactions and UI transitions
+
+---
+
+## 📦 Tech Stack
+
+- **Frontend**: [Next.js](https://nextjs.org/), [React](https://reactjs.org/)
+- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Persistence**: In-memory (optional: localStorage or API routes)
+
+---
+
+## 💻 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or later)
+- npm or yarn
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/simple-task-manager.git
+cd simple-task-manager
+```
+
+### Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### Run the Development Server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 Learning Outcomes Achieved
 
-## Learn More
+Through building this project, the following concepts were learned and applied:
 
-To learn more about Next.js, take a look at the following resources:
+### ✅ **Next.js Fundamentals**
+- Page-based routing using `/pages`
+- Dynamic component rendering
+- Optional use of API routes for backend simulation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ✅ **Zustand for State Management**
+- Centralized task store
+- State actions (add, update, delete, toggle)
+- Efficient global state access across multiple components
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ✅ **User Interface & UX**
+- Component-based architecture with props and reactivity
+- Tailwind-based styling with responsive design and dark mode
+- Conditional rendering and form input handling
+- Accessible and keyboard-friendly controls
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📷 Screenshots / Demo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+_Include screenshots or a video link here if available._
+
+---
+
+## 📁 Project Structure
+
+```
+/pages
+  index.tsx
+  api/tasks.ts (optional)
+/components
+  TaskInput.tsx
+  TaskItem.tsx
+  LoadingSpinner.tsx
+/store
+  taskStore.ts
+/styles
+  globals.css
+```
+
+---
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgments
+
+Thanks to the creators of:
+- [Next.js](https://nextjs.org/)
+- [Zustand](https://github.com/pmndrs/zustand)
+- [Tailwind CSS](https://tailwindcss.com/)
