@@ -84,8 +84,12 @@ Through building this project, the following concepts were learned and applied:
 - Accessible and keyboard-friendly controls
 
 ---
+---
+### Screenshots
+![Image](https://github.com/user-attachments/assets/10d02f81-27cb-4eb0-a272-d2ce618f679b)
 
-
+![Image](https://github.com/user-attachments/assets/b2275623-f782-4291-bd8e-4b5b4dcd9adf)
+---
 
 ## 📁 Project Structure
 
