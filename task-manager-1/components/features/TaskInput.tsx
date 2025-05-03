@@ -49,7 +49,7 @@ export const TaskInput = () => {
         {isLoading ? (
           <>
             <LoadingSpinner small={true} />
-            <span>Adding Task...</span>
+            <span>Deleting Task...</span>
           </>
         ) : (
           <>
